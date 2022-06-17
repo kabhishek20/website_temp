@@ -1,0 +1,601 @@
+@font-face {
+    font-family: 'ttnorms';
+    src: url('fonts/TTNorms-Regular.otf');
+}
+
+@font-face {
+    font-family: 'damion';
+    src: url('fonts/Damion-Regular.ttf');
+}
+
+/* ---------------------------------------------------------------Header--------------------------------------------------------------- */
+
+#header{
+    display:flex;
+    background-color:#ffffff;
+    height:140px;
+    margin:-10px -8px;
+}
+
+#logo{
+    width: 100%;
+}
+
+#logodiv{
+    /* background-color:red; */
+    width: 8%;
+    margin-top:20px;
+    margin-left: 20px;
+}
+
+#logotxt{
+    width: 100%;
+    margin-top:10px;
+}
+
+#logotxtdiv{
+    /* background-color:red; */
+    width:130px;
+    height: 60px;
+    margin-top:45px;
+    margin-left: 10px;
+}
+
+.menu {
+    list-style-type: none; 
+    margin-top: 56px;
+    margin-left: 20px;
+    overflow: hidden;
+    width:450px;
+    font-family:'ttnorms';
+    font-weight:bold;
+    /* background-color:red; */
+}
+
+.menuitem {
+    float: left;
+    margin: 2%;
+    font-size: 14px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 6px;
+}
+
+.search {
+    width: 330px;
+    display: flex;
+    
+    margin-top:5px;
+    /* background-color: green; */
+
+}
+
+.searchTerm {
+    width: 250px;
+    border: 1px solid white;
+    border-right: none;
+    padding: 5px 10px;
+    height: 30px;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    background-color: rgba(172, 224, 244, 0.2);
+    /* background-color:red; */
+
+}
+
+.searchButton {
+    width: 40px;
+    height: 42px;
+    border: 1px solid white;
+    border-left: none;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: rgba(172, 224, 244, 0.2);
+}
+
+.toprow {
+    width: 500px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    /* background-color: skyblue; */
+}
+
+.toprowicon {
+    width: 120px;
+    margin-top: 7px;
+    /* background-color: purple; */
+}
+
+.toprowicon a {
+    padding-left: 3px;
+    color: black;
+}
+
+.subheading{
+    border-radius: 25px;
+    font-size:20px;
+    width:25%;
+    text-align: center;
+    padding: 4px;
+}
+.subheading a{
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.products{
+    background-color: #E5E5E5;
+    margin: 10px -8px;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5px;
+}
+
+.brands{
+    background-color: #E5E5E5;
+    margin: 10px -8px;
+    display: none;
+    justify-content:space-evenly;
+    padding: 5px;
+}
+
+.guides{
+    background-color: #E5E5E5;
+    margin: 10px -8px;
+    display: none;
+    justify-content:space-evenly;
+    padding: 5px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+  
+  #slider {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin-top:20px;
+    margin-left:30px;
+   
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  }
+  #slider ul {
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+  }
+  #slider ul li {
+    position: relative;
+    height: 100%;
+   
+    float: left;
+  }
+  #slider ul li img{
+    width: 1200px;
+    height: 300px;
+  }
+   
+  #slider #prev, #slider #next {
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+  }
+  #slider #prev:hover, #slider #next:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0;
+  }
+  #slider #prev {
+    left: 10px;
+  }
+  #slider #next {
+    right: 10px;
+  }
+/* ------------------------------------------------------------------------------------------------------------------------------------------ */
+
+.firstimage {
+    margin-top: 10px;
+    position: fixed;
+    position:absolute;
+    top:132px;
+    z-index:-1;
+
+}
+
+.firstimage img {
+    width: 99.5%;
+}
+
+.feature p{
+    margin-left: 18px;
+}
+
+.feature img{
+    width:1200px;
+    margin-top:20px;
+    margin-left:30px;
+    border-radius: 10px;
+}
+
+.text2 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.text2 .one {
+    font-family: 'ttnorms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+}
+
+.text2 .two {
+    font-family: 'damion';
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 88px;
+    margin-top: -2%;
+}
+
+.shoesbg {
+    width: 20%;
+    height: 390px;
+    background-color: #EDEDED;
+    margin: 30px 30px;
+    z-index: -1;
+}
+
+.shoesimg {
+    position: relative;
+}
+
+#xyz {
+    position: absolute;
+    background-color: #E10C19;
+    color: white;
+    top: 19px;
+    left: 7%;
+    padding: 0 20px;
+    font-family: 'ttnorms';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.shoesimg img {
+    width: 85%;
+    position: absolute;
+    left: 7%;
+    top: 18px;
+}
+
+.shoestxt {
+    position: relative;
+    font-size: 12px;
+    line-height: 1rem;
+}
+
+.alltxt {
+    position: absolute;
+    left: 7%;
+    top: 280px;
+    font-family: 'ttnorms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.alltxt a {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    font-family: 'ttnorms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+
+
+.celebrate {
+    display: flex;
+    position: relative;
+    z-index: -1;
+}
+
+.cleft .cright {
+    width: 50%;
+
+}
+
+.cleft img {
+    width: 80%;
+    padding: 50px 10px 50px 90px;
+}
+
+.cright img {
+    width: 80%;
+    padding: 50px 90px 50px 10px;
+}
+
+.clefttxt {
+    position: absolute;
+    text-align: center;
+    left: 19%;
+    top: 35%;
+    color: white;
+}
+
+.celebrate a {
+    background-color: black;
+    color: white;
+    padding: 15px 35px;
+    font-family: 'TT Norms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.crighttxt {
+    position: absolute;
+    text-align: center;
+    left: 65%;
+    top: 35%;
+    color: white;
+}
+
+.occasions{
+    margin-left: 40px;
+
+}
+
+.occasionsbg {
+    width: 20%;
+    height: 360px;
+    position: relative;
+    padding-left:30px;
+    z-index: -1;
+}
+
+.occasionsbg a {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-family: 'ttnorms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.occasionsbg img {
+    width: 90%;
+    padding: 25px;
+}
+
+.occasionsbgtxt {
+    position: absolute;
+    text-align: center;
+    left:35%;
+    top: 55%;
+    color: white;
+}
+
+.occasions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.occasionsbgtxt1 {
+    position: absolute;
+    text-align: center;
+    left:35%;
+    top: 37%;
+    color: white;
+}
+
+.fullimg {
+    position: relative;
+    margin-left: 6%;
+    margin-top:50px;
+    z-index: -1;
+}
+
+.fullimgtxt {
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    text-align: center;
+    color: white;
+}
+
+.fullimgtxt a {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    font-family: 'ttnorms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.fullimg1 {
+    position: relative;
+    margin-left: 2%;
+    margin-top: 4%;
+    z-index: -1;
+}
+
+.fullimgtxt1 {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    text-align: center;
+}
+
+.fullimgtxt1 a {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: 1px solid #FFFFFF;
+    font-family: 'ttnorms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.about {
+    display: flex;
+}
+
+.aboutleft {
+    width: 50%;
+}
+
+.aboutleft img {
+    width: 80%;
+    padding: 15px 0px 15px 25px;
+}
+
+.aboutright {
+    width: 40%;
+    text-align: left;
+    padding: 60px 30px;
+}
+
+.form {
+    position: relative;
+    margin-top: 30px;
+    z-index: -1;
+}
+
+.formimg {
+    width: 100%;
+}
+
+.formtxt {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    font-size: 24px;
+    color: white;
+    font-family: 'ttnorms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.formtxt a {
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+    border: 1px solid #FFFFFF;
+    font-family: 'ttnorms';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+#fname {
+    color: #727272;
+    font-size: 14px;
+    border-radius: 0px;
+    height: 40px;
+    width: 460px;
+}
+
+#lname {
+    color: #727272;
+    font-size: 14px;
+    border-radius: 0px;
+    height: 40px;
+    width: 460px;
+}
+
+.txtall {
+    display: flex;
+    margin: 80px;
+    font-family: 'Baskervville';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.txt1 {
+    width: 33.33%;
+
+    font-size: 40px;
+    border-right: 8px solid #F3F3F3;
+}
+
+.txt2 {
+    width: 33.33%;
+
+    font-size: 40px;
+}
+
+.txt3 {
+    width: 33.33%;
+
+    font-size: 40px;
+    border-left: 8px solid #F3F3F3;
+    ;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    height: 300px;
+    font-family: 'ttnorms';
+    font-style: normal;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0 30px;
+    color: #FFFFFF;
+}
+
+.xyz i {
+    padding: 10px;
+}

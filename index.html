@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="headerstyle.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Header</title>
+</head>
+
+<body>
+
+    <!-- --------------------------------------------------------Header------------------------------------------------------------------- -->
+    <div id="header" style="position:sticky;top:0;">
+        <div id="logodiv">
+            <img src="images_temp/Sculpere_Logo_black.png" alt="" id="logo">
+        </div>
+        <div id="logotxtdiv">
+            <img src="images_temp/Sculpere_Logotxt_black.png" alt="" id="logotxt">
+        </div>
+        <div>
+            <ul class="menu">
+                <li class="menuitem"><a href="#home" onmouseover="displayproducts()">PRODUCTS</a></li>
+                <li class="menuitem"><a href="#home" onmouseover="displaybrands()">COLLECTIONS</a></li>
+                <li class="menuitem"><a href="#home" onmouseover="displayguides()">GENTLEMEN'S GUIDE</a></li>
+            </ul>
+        </div>
+        <div class="toprow">
+            <div class="search">
+                <input type="text" class="searchTerm" placeholder="   Search...">
+                <button type="submit" class="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+            <div class="toprowicon">
+                <a href="#account">
+                    <img src="images_temp/account.png" alt="" style="height:25px;">
+                </a>
+                <a href="#like">
+                    <img src="images_temp/like.png" alt="" style="height:25px;">
+                </a>
+                <a href="#cart">
+                    <img src="images_temp/shopping bag1.png" alt="" style="height:25px;">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div style="background-color:#E5E5E5;margin:0 -8px;">
+        <div style="width:90%;margin-left: auto;margin-right: auto;">
+            <div class="products">
+                <div class="subheading"><a href="#link">Shoes</a></div>
+                <div class="subheading"><a href="#link">Wallets</a></div>
+                <div class="subheading"><a href="#link">Belts</a></div>
+                <div class="subheading"><a href="#link">Shirts</a></div>
+                <div class="subheading"><a href="#link">Cufflinks</a></div>
+                <div class="subheading"><a href="#link">Pockets Square</a></div>
+                <div class="subheading"><a href="#link">Ties</a></div>
+                <div class="subheading"><a href="#link">The Suit Bag</a></div>
+                <div class="subheading"><a href="#link">Design Your Shoes</a></div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color:#E5E5E5;margin:0 -8px;">
+        <div style="width:80%;margin-left: auto;margin-right: auto;">
+            <div class="brands">
+                <div class="subheading"><a href="#link">Grooming1</a></div>
+                <div class="subheading"><a href="#link">Topwear1</a></div>
+                <div class="subheading"><a href="#link">Bottomwear1</a></div>
+                <div class="subheading"><a href="#link">Shoes1</a></div>
+                <div class="subheading"><a href="#link">Innerwear1</a></div>
+                <div class="subheading"><a href="#link">Socks1</a></div>
+                <div class="subheading"><a href="#link">Accessories1</a></div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color:#E5E5E5;margin:0 -8px;">
+        <div style="width:80%;margin-left: auto;margin-right: auto;">
+            <div class="guides">
+                <div class="subheading"><a href="#link">Grooming2</a></div>
+                <div class="subheading"><a href="#link">Topwear2</a></div>
+                <div class="subheading"><a href="#link">Bottomwear2</a></div>
+                <div class="subheading"><a href="#link">Shoes2</a></div>
+                <div class="subheading"><a href="#link">Innerwear2</a></div>
+                <div class="subheading"><a href="#link">Socks2</a></div>
+                <div class="subheading"><a href="#link">Accessories2</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
+    
+    <div id="slider" style="background-color:black;z-index:-1 ;">
+        <ul id="slideWrap"> 
+          <li><img src="images_temp/slider1.jpg" alt=""></li>
+          <li><img src="images_temp/slider2.jpg" alt=""></li>
+          <li><img src="images_temp/slider3.jpg" alt=""></li>
+          <li><img src="images_temp/slider4.jpg" alt=""></li>
+          <li><img src="images_temp/slider5.jpg" alt=""></li>
+          <li><img src="images_temp/slider6.jpg" alt=""></li>
+        </ul>
+        <a id="prev" href="#">&#8810;</a>
+        <a id="next" href="#">&#8811;</a>
+      </div>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+        <!-- -----------------------------------------------------FIRST PAGE IMAGE--------------------------------------------------------- -->
+        <!-- <div class="firstimage">
+            <img src="images_temp/bg1.jpg" alt="">
+        </div> -->
+
+        <div class="feature">
+            <img src="images_temp/feature.png" alt="" srcset="">
+            <p style="text-align: center;font-size: 14px;font-family: 'ttnorms';">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dignissimos distinctio sit voluptatibus. Quasi nisi placeat blanditiis tempore harum minima dolor doloribus corrupti distinctio, ex incidunt, repellendus iste modi veniam.</p>
+            <p style="text-align: center;font-size: 16px;font-family: 'ttnorms';font-weight: bold;">Browse More &RightArrow;</p>
+        </div>
+
+            <!-- ----------------------------------------------------SECOND PAGE HEADING------------------------------------------------------- -->
+    <div class="text2">
+        <p class="one">ART OF GRACE</p>
+        <p class="two">New Arrivals</p>
+    </div>
+
+    <!-- ------------------------------------------------------SHOES GALLERY----------------------------------------------------------- -->
+    <div style="display:flex;flex-wrap: wrap;">
+        <div class="shoesbg">
+            <div class="shoesimg">
+                <img src="images/Rectangle 5.png" alt="">
+                <div id="xyz">
+                    <p>30%</p>
+                </div>
+            </div>
+            <div class="shoestxt">
+                <div class="alltxt">
+                    <p>WINGTIP OXFORDS</p>
+                    <p style="margin-top:-8px"><i class="fa fa-minus" style="width:15px;color:rgb(68, 67, 67)"></i>INR
+                        1899.00</p>
+                    <a href="#button">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="shoesbg">
+            <div class="shoesimg">
+                <img src="images/Rectangle 5-1.png" alt="">
+                <div id="xyz">
+                    <p>30%</p>
+                </div>
+            </div>
+            <div class="shoestxt">
+                <div class="alltxt">
+                    <p>WINGTIP OXFORDS</p>
+                    <p style="margin-top:-8px"><i class="fa fa-minus" style="width:15px;color:rgb(68, 67, 67)"></i>INR
+                        1899.00</p>
+                    <a href="#button">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="shoesbg">
+            <div class="shoesimg">
+                <img src="images/Rectangle 5-2.png" alt="">
+                <div id="xyz">
+                    <p>30%</p>
+                </div>
+            </div>
+            <div class="shoestxt">
+                <div class="alltxt">
+                    <p>WINGTIP OXFORDS</p>
+                    <p style="margin-top:-8px"><i class="fa fa-minus" style="width:15px;color:rgb(68, 67, 67)"></i>INR
+                        1899.00</p>
+                    <a href="#button">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="shoesbg">
+            <div class="shoesimg">
+                <img src="images/Rectangle 5-3.png" alt="">
+                <div id="xyz">
+                    <p>30%</p>
+                </div>
+            </div>
+            <div class="shoestxt">
+                <div class="alltxt">
+                    <p>WINGTIP OXFORDS</p>
+                    <p style="margin-top:-8px"><i class="fa fa-minus" style="width:15px;color:rgb(68, 67, 67)"></i>INR
+                        1899.00</p>
+                    <a href="#button">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="shoesbg">
+            <div class="shoesimg">
+                <img src="images/Rectangle 40.png" alt="">
+                <div id="xyz">
+                    <p>30%</p>
+                </div>
+            </div>
+            <div class="shoestxt">
+                <div class="alltxt">
+                    <p>WINGTIP OXFORDS</p>
+                    <p style="margin-top:-8px"><i class="fa fa-minus" style="width:15px;color:rgb(68, 67, 67)"></i>INR
+                        1899.00</p>
+                    <a href="#button">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="shoesbg">
+            <div class="shoesimg">
+                <img src="images/Rectangle 5-4.png" alt="">
+                <div id="xyz">
+                    <p>30%</p>
+                </div>
+            </div>
+            <div class="shoestxt">
+                <div class="alltxt">
+                    <p>WINGTIP OXFORDS</p>
+                    <p style="margin-top:-8px"><i class="fa fa-minus" style="width:15px;color:rgb(68, 67, 67)"></i>INR
+                        1899.00</p>
+                    <a href="#button">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="shoesbg">
+            <div class="shoesimg">
+                <img src="images/Rectangle 5-5.png" alt="">
+                <div id="xyz">
+                    <p>30%</p>
+                </div>
+            </div>
+            <div class="shoestxt">
+                <div class="alltxt">
+                    <p>WINGTIP OXFORDS</p>
+                    <p style="margin-top:-8px"><i class="fa fa-minus" style="width:15px;color:rgb(68, 67, 67)"></i>INR
+                        1899.00</p>
+                    <a href="#button">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+        <div class="shoesbg">
+            <div class="shoesimg">
+                <img src="images/Rectangle 5-6.png" alt="">
+                <div id="xyz">
+                    <p>30%</p>
+                </div>
+            </div>
+            <div class="shoestxt">
+                <div class="alltxt">
+                    <p>WINGTIP OXFORDS</p>
+                    <p style="margin-top:-8px"><i class="fa fa-minus" style="width:15px;color:rgb(68, 67, 67)"></i>INR
+                        1899.00</p>
+                    <a href="#button">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr style="border: 1px solid #F3F3F3;">
+    <!-- -------------------------------------------------------CELEBRATE GALLERY--------------------------------------------------------- -->
+    <div class="celebrate">
+        <div class="cleft">
+            <img src="images/Rectangle 7.png" alt="">
+            <div class="clefttxt">
+                <p
+                    style="font-family: 'ttnorms';font-style: normal;font-weight: 400;font-size: 36px;line-height: 43px;">
+                    Celebrate</p>
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 48px;line-height: 66px;margin-top:-40px;margin-bottom: 30px;">
+                    Celebration</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="cright">
+            <img src="images/Rectangle 8.png" alt="">
+            <div class="crighttxt">
+                <p
+                    style="font-family: 'ttnorms';font-style: normal;font-weight: 400;font-size: 36px;line-height: 43px;">
+                    Celebrate</p>
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 48px;line-height: 66px;margin-top:-40px;margin-bottom: 30px;">
+                    Celebration</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+    <hr style="border: 1px solid #F3F3F3;">
+
+     <!-- ------------------------------------------------------OCCASIONS HEADING-------------------------------------------------------- -->
+     <div style="text-align:center;">
+        <p style="font-family: 'ttnorms';font-style: normal;font-weight: 400;font-size: 24px;line-height: 29px;">SHOP BY
+        </p>
+        <p
+            style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 64px;line-height: 88px;margin-top:-30px;">
+            Occasions</p>
+    </div>
+
+    <div class="occasions">
+        <div class="occasionsbg">
+            <img src="images/Rectangle 10.png" alt="">
+            <div class="occasionsbgtxt">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 30px;line-height: 55px;margin-bottom: 25px;">
+                    Weddings</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 15.png" alt="">
+            <div class="occasionsbgtxt">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 30px;line-height: 55px;margin-bottom: 25px;">
+                    Workwear</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 16.png" alt="">
+            <div class="occasionsbgtxt">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 30px;line-height: 55px;margin-bottom: 25px;">
+                    Casuals</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 17.png" alt="">
+            <div class="occasionsbgtxt">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 30px;line-height: 55px;margin-bottom: 25px;">
+                    At Ease</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+
+
+    <hr style="border: 1px solid #F3F3F3;margin-top: 50px;">
+
+     <!-- ----------------------------------------------------------CATEGORY HEADING------------------------------------------------------- -->
+     <div style="text-align:center;margin-top: 30px;">
+        <p style="font-family: 'ttnorms';font-style: normal;font-weight: 400;font-size: 24px;line-height: 29px;">SHOP BY
+        </p>
+        <p
+            style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 64px;line-height: 88px;margin-top:-30px;">
+            Category</p>
+    </div>
+    <!-- ----------------------------------------------------------CATEGORY GALLERY------------------------------------------------------- -->
+    <div class="occasions">
+        <div class="occasionsbg">
+            <img src="images/Rectangle 18.png" alt="">
+            <div class="occasionsbgtxt1">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 30px;line-height: 55px;margin-bottom: 90px;">
+                    Monk Strap</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 20.png" alt="">
+            <div class="occasionsbgtxt1">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 30px;line-height: 55px;margin-bottom: 90px;">
+                    Lace-Ups</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 19.png" alt="">
+            <div class="occasionsbgtxt1">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 30px;line-height: 55px;margin-bottom: 90px;">
+                    Loafers</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 21.png" alt="">
+            <div class="occasionsbgtxt1">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 30px;line-height: 55px;margin-bottom: 90px;">
+                    Sneakers</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+    <div class="fullimg">
+        <img src="images/Rectangle 22-1.png" alt="" style="width:88%;padding-left:20px;">
+        <div class="fullimgtxt">
+            <p
+                style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 40px;line-height: 55px;margin-bottom:15px;">
+                Slippers</p><br>
+            <a href="#shop">SHOP NOW</a>
+        </div>
+    </div>
+    <hr style="border: 1px solid #F3F3F3;margin-top: 50px;">
+    <!-- ----------------------------------------------------------DESIGN NOW ------------------------------------------------------------- -->
+    <div class="fullimg1">
+        <img src="images/Rectangle 22.png" alt="" style="width:98%;">
+        <div class="fullimgtxt1">
+            <p
+                style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 60px;line-height: 82px;color: white;margin-bottom: 30px;">
+                Made to Order</p><br>
+            <a href="#shop">DESIGN NOW</a>
+        </div>
+    </div>
+    <hr style="border: 1px solid #F3F3F3;margin-top: 50px;">
+    <!-- ----------------------------------------------------------ACCESSORIZE HEADING----------------------------------------------------- -->
+    <div style="text-align:center;margin-top: 60px;">
+        <p
+            style="font-family: 'ttnorms';font-style: normal;font-weight: 400;font-size: 24px;line-height: 29px;letter-spacing: 0.1em;">
+            ACCESSORIZE</p>
+        <p
+            style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 60px;line-height: 82px;margin-top: -20px;">
+            With the Best</p>
+    </div>
+    <!-- ---------------------------------------------------------ACCESSORIZED GALLERY----------------------------------------------------- -->
+    <div class="occasions">
+        <div class="occasionsbg">
+            <img src="images/Rectangle 18-1.png" alt="">
+            <div class="occasionsbgtxt1">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size:30px;line-height: 55px;margin-bottom: 90px;">
+                    Wallets</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 20-1.png" alt="">
+            <div class="occasionsbgtxt1">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size:30px;line-height: 55px;margin-bottom: 90px;">
+                    Belts</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 19-1.png" alt="">
+            <div class="occasionsbgtxt1">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size:30px;line-height: 55px;margin-bottom: 90px;">
+                    Cufflinks</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 21-1.png" alt="">
+            <div class="occasionsbgtxt1">
+                <p
+                    style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size:30px;line-height: 55px;margin-bottom: 90px;">
+                    Tie/Pkt Sq</p>
+                <a href="#shop">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+    <hr style="border: 1px solid #F3F3F3;">
+    <!-- -----------------------------------------------------------FEATURED HEADING------------------------------------------------------- -->
+    <div style="text-align:center;margin-top: 50px;">
+        <p
+            style="font-family: 'ttnorms';font-style: normal;font-weight: 400;font-size: 23px;line-height: 29px;letter-spacing: 0.1em;">
+            FEATURED</p>
+        <p
+            style="font-family: 'Damion';font-style: normal;font-weight: 400;font-size: 60px;line-height: 82px;margin-top: -20px;">
+            Across</p>
+    </div>
+    <!-- -----------------------------------------------------------FEATURED GALLERY------------------------------------------------------- -->
+    <div class="occasions">
+        <div class="occasionsbg">
+            <img src="images/Rectangle 23.png" alt="" style="border: 1px solid #A3A3A3;">
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 24.png" alt="" style="border: 1px solid #A3A3A3;">
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 25.png" alt="" style="border: 1px solid #A3A3A3;">
+        </div>
+        <div class="occasionsbg">
+            <img src="images/Rectangle 38.png" alt="" style="width:267px;margin-top: -25px;margin-left: -25px;">
+        </div>
+    </div>
+    <hr style="border: 1px solid #F3F3F3;margin-top: -20px;">
+    <!-- --------------------------------------------------------------ABOUT US-------------------------------------------------------- -->
+    <div class="about">
+        <div class="aboutleft">
+            <img src="images/Rectangle 24-1.png" alt="">
+        </div>
+        <div class="aboutright">
+            <p
+                style="font-family: 'Baskervville';font-style: italic;font-weight: 400;font-size: 48px;line-height: 62px;">
+                ABOUT US</p><br>
+            <p
+                style="font-family: 'ttnorms';font-style: normal;font-weight: 400;font-size: 15px;line-height: 30px;margin-top:-30px;">
+                SCULPERE LUXURY RETAIL HOUSE WAS FOUNDED
+                IN 2018 WITH A VISION TO PROVIDE EXCEPTIONAL
+                LUXURY SERVICES IN PERSONALISING AND
+                CURATING MENS&apos; WARDROBES. <br><br>
+
+                SCULPERE&apos;S SIGNATURE TRUNK STORE EXPERIENCE IS THE FIRST OF ITS KIND IN THE COUNTRY, BECOMING A
+                ONE-STOP SHOP FOR ALL YOUR WARDROBE AND STYLING NEEDS TO TRULY LOOK AS PER YOUR UNIQUE PERSONALITY.</p>
+        </div>
+    </div>
+    <!-- ---------------------------------------------------------CONTACT US---------------------------------------------------------------- -->
+    <div class="form">
+        <img src="images/Rectangle 26.png" alt="" class="formimg">
+        <div class="formtxt">
+            <p>Win a chance to grab a GIFT HAMPER of worth <br>INR 5000</p>
+
+            <form action="/action_page.php">
+                <input type="text" id="fname" name="fname" value="               ENTER EMAIL"><br>
+                <input type="text" id="lname" name="lname" value="               MOBILE NUMBER">
+            </form><br>
+            <a href="#shop">SHOP NOW</a>
+        </div>
+    </div>
+    <div class="txtall">
+        <div class="txt1">
+            <p>EASY RETURNS & <br> EXCHANGE</p>
+        </div>
+        <div class="txt2">
+            <p>ASSURED QUALITY</p>
+        </div>
+        <div class="txt3">
+            <p>HASSLE FREE <br> DELIVERY</p>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------FOOTER---------------------------------------------------------- -->
+    <div style="background-color:#121212;color: rgb(180, 167, 167); font-size: 12px;width:102%;margin:-20px -20px -50px -20px">
+        <br><br>
+        <table>
+            <tr>
+                <th style="color:#ACE0F4;">FAQ</th>
+                <th style="color:#ACE0F4;">ABOUT</th>
+                <th style="color:#ACE0F4;">LEGAL AREA</th>
+            </tr>
+            <tr>
+                <td>BESPOKE SERVICES</td>
+                <td>ACCESSORIES</td>
+                <td>TERMS & CONDITIONS</td>
+            </tr>
+            <tr>
+                <td>MTO SHOES</td>
+                <td>ABOUT US</td>
+                <td>PRIVACY POLICY</td>
+            </tr>
+            <tr>
+                <td>MEASUREMENTS & ALTERATIONS</td>
+                <td>PRESS</td>
+                <td>COOKIES POLICY</td>
+            </tr>
+            <tr>
+                <td>SHIPPING AND DELIVERY</td>
+            </tr>
+            <tr>
+                <td>RETURNS</td>
+            </tr>
+            <tr>
+                <td>PAYMENT & INQUIRIES</td>
+            </tr>
+            <tr>
+                <td>CONTACT US</td>
+            </tr>
+            <!-- <tr>
+                <td></td>
+                <td></td>
+                <td class="xyz" style="color: rgb(180, 167, 167);font-size: 20px;text-align: center;">
+                    <i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-pinterest"></i><i
+                        class="fa fa-youtube-play"></i><i class="fa fa-instagram"></i><i class="fa fa-linkedin"></i>
+                </td>
+            </tr> -->
+        </table>
+        <div style="display:flex; margin:30px 128px;">
+            <div class="xyz" style="color: white;font-size: 20px;text-align: center;width:25%;">
+                <i class="fa fa-facebook-f"></i><i class="fa fa-twitter"></i><i class="fa fa-pinterest"></i><i
+                        class="fa fa-youtube-play"></i><i class="fa fa-instagram"></i><i class="fa fa-linkedin"></i>
+            </div>
+            <div style="color: white;font-size: 15px;text-align: center;width:20%;padding: 10px;margin-left: 430px;">
+                Copyright &copy; SCULPERE
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------------------------------------------------------------ -->
+
+    <script>
+        var responsiveSlider = function() {
+    
+    var slider = document.getElementById("slider");
+    var sliderWidth = slider.offsetWidth;
+    var slideList = document.getElementById("slideWrap");
+    var count = 1;
+    var items = slideList.querySelectorAll("li").length;
+    var prev = document.getElementById("prev");
+    var next = document.getElementById("next");
+    
+    window.addEventListener('resize', function() {
+      sliderWidth = slider.offsetWidth;
+    });
+    
+    var prevSlide = function() {
+      if(count > 1) {
+        count = count - 2;
+        slideList.style.left = "-" + count * sliderWidth + "px";
+        count++;
+      }
+      else if(count = 1) {
+        count = items - 1;
+        slideList.style.left = "-" + count * sliderWidth + "px";
+        count++;
+      }
+    };
+    
+    var nextSlide = function() {
+      if(count < items) {
+        slideList.style.left = "-" + count * sliderWidth + "px";
+        count++;
+      }
+      else if(count = items) {
+        slideList.style.left = "0px";
+        count = 1;
+      }
+    };
+    
+    next.addEventListener("click", function() {
+      nextSlide();
+    });
+    
+    prev.addEventListener("click", function() {
+      prevSlide();
+    });
+    
+    setInterval(function() {
+      nextSlide()
+    }, 2000);
+    
+    };
+    
+    window.onload = function() {
+    responsiveSlider();  
+    }
+    
+    
+      </script>
+
+</body>
+
+</html>
