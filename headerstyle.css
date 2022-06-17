@@ -13,23 +13,24 @@
 #header{
     display:flex;
     background-color:#ffffff;
-    height:140px;
+    height:130px;
     margin:-10px -8px;
 }
 
 #logo{
-    width: 100%;
+    width: 90%;
 }
 
 #logodiv{
     /* background-color:red; */
-    width: 8%;
-    margin-top:20px;
-    margin-left: 20px;
+    width: 7%;
+    margin-top:28px;
+    margin-left: 38px;
+    margin-right:-26px;
 }
 
 #logotxt{
-    width: 100%;
+    width: 90%;
     margin-top:10px;
 }
 
@@ -38,13 +39,14 @@
     width:130px;
     height: 60px;
     margin-top:45px;
-    margin-left: 10px;
+    margin-left: 30px;
+    margin-right:-30px;
 }
 
 .menu {
     list-style-type: none; 
-    margin-top: 56px;
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-left: 25px;
     overflow: hidden;
     width:450px;
     font-family:'ttnorms';
@@ -66,16 +68,16 @@ a {
 }
 
 .search {
-    width: 330px;
+    width: 300px;
     display: flex;
     
-    margin-top:5px;
+    margin:0px 10px;
     /* background-color: green; */
 
 }
 
 .searchTerm {
-    width: 250px;
+    width: 200px;
     border: 1px solid white;
     border-right: none;
     padding: 5px 10px;
@@ -103,7 +105,7 @@ a {
     width: 500px;
     display: flex;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 91px;
     font-size: 1.5rem;
     /* background-color: skyblue; */
 }
@@ -122,13 +124,15 @@ a {
 .subheading{
     border-radius: 25px;
     font-size:20px;
-    width:25%;
+    width:50px;
     text-align: center;
-    padding: 4px;
+    padding: 4px 2px;
+    /* background-color: red; */
 }
 .subheading a{
     color: #000000;
     font-size: 12px;
+    font-weight:bold;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -136,7 +140,6 @@ a {
     background-color: #E5E5E5;
     margin: 10px -8px;
     display: flex;
-    justify-content:space-evenly;
     padding: 5px;
 }
 
@@ -277,7 +280,7 @@ a {
 
 #xyz {
     position: absolute;
-    background-color: #E10C19;
+    background-color: #000000;
     color: white;
     top: 19px;
     left: 7%;
